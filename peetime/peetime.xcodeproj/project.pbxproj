@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF61792D1C30D4C900985CE4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF61792C1C30D4C900985CE4 /* MapKit.framework */; };
+		CF61792F1C30D8D100985CE4 /* PetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF61792E1C30D8D100985CE4 /* PetViewController.swift */; };
+		CF6179311C30FA9900985CE4 /* Walk.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6179301C30FA9900985CE4 /* Walk.swift */; };
+		CF6179331C30FDC600985CE4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6179321C30FDC600985CE4 /* CoreData.framework */; };
+		CF6179361C3102B500985CE4 /* PeeTime.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF6179341C3102B500985CE4 /* PeeTime.xcdatamodeld */; };
+		CF6179391C3108BA00985CE4 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6179381C3108BA00985CE4 /* Location.swift */; };
+		CFE8984D1C29E5020030E68B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8984C1C29E5020030E68B /* AppDelegate.swift */; };
+		CFE8984F1C29E5020030E68B /* WalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8984E1C29E5020030E68B /* WalkViewController.swift */; };
+		CFE898511C29E5020030E68B /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE898501C29E5020030E68B /* StatusViewController.swift */; };
+		CFE898541C29E5020030E68B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFE898521C29E5020030E68B /* Main.storyboard */; };
+		CFE898561C29E5020030E68B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFE898551C29E5020030E68B /* Assets.xcassets */; };
+		CFE898591C29E5020030E68B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFE898571C29E5020030E68B /* LaunchScreen.storyboard */; };
+		CFE898641C29E5030030E68B /* PeeTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE898631C29E5030030E68B /* PeeTimeTests.swift */; };
+		CFE8986F1C29E5030030E68B /* PeeTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8986E1C29E5030030E68B /* PeeTimeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFE898601C29E5030030E68B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFE898411C29E5020030E68B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFE898481C29E5020030E68B;
+			remoteInfo = PeeTime;
+		};
+		CFE8986B1C29E5030030E68B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFE898411C29E5020030E68B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFE898481C29E5020030E68B;
+			remoteInfo = PeeTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF61792C1C30D4C900985CE4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CF61792E1C30D8D100985CE4 /* PetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetViewController.swift; sourceTree = "<group>"; };
+		CF6179301C30FA9900985CE4 /* Walk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Walk.swift; sourceTree = "<group>"; };
+		CF6179321C30FDC600985CE4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CF6179351C3102B500985CE4 /* PeeTime.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PeeTime.xcdatamodel; sourceTree = "<group>"; };
+		CF6179381C3108BA00985CE4 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		CFE898491C29E5020030E68B /* PeeTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeeTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE8984C1C29E5020030E68B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFE8984E1C29E5020030E68B /* WalkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkViewController.swift; sourceTree = "<group>"; };
+		CFE898501C29E5020030E68B /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		CFE898531C29E5020030E68B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFE898551C29E5020030E68B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFE898581C29E5020030E68B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFE8985A1C29E5020030E68B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFE8985F1C29E5030030E68B /* PeeTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeeTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE898631C29E5030030E68B /* PeeTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeeTimeTests.swift; sourceTree = "<group>"; };
+		CFE898651C29E5030030E68B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFE8986A1C29E5030030E68B /* PeeTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeeTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE8986E1C29E5030030E68B /* PeeTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeeTimeUITests.swift; sourceTree = "<group>"; };
+		CFE898701C29E5030030E68B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFE898461C29E5020030E68B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6179331C30FDC600985CE4 /* CoreData.framework in Frameworks */,
+				CF61792D1C30D4C900985CE4 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE8985C1C29E5020030E68B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE898671C29E5030030E68B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF6179371C3105A300985CE4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CF6179301C30FA9900985CE4 /* Walk.swift */,
+				CF6179381C3108BA00985CE4 /* Location.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CFE898401C29E5020030E68B = {
+			isa = PBXGroup;
+			children = (
+				CF6179321C30FDC600985CE4 /* CoreData.framework */,
+				CF61792C1C30D4C900985CE4 /* MapKit.framework */,
+				CFE8984B1C29E5020030E68B /* PeeTime */,
+				CFE898621C29E5030030E68B /* PeeTimeTests */,
+				CFE8986D1C29E5030030E68B /* PeeTimeUITests */,
+				CFE8984A1C29E5020030E68B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFE8984A1C29E5020030E68B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFE898491C29E5020030E68B /* PeeTime.app */,
+				CFE8985F1C29E5030030E68B /* PeeTimeTests.xctest */,
+				CFE8986A1C29E5030030E68B /* PeeTimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFE8984B1C29E5020030E68B /* PeeTime */ = {
+			isa = PBXGroup;
+			children = (
+				CF6179371C3105A300985CE4 /* Models */,
+				CFE8984C1C29E5020030E68B /* AppDelegate.swift */,
+				CFE8984E1C29E5020030E68B /* WalkViewController.swift */,
+				CFE898501C29E5020030E68B /* StatusViewController.swift */,
+				CF61792E1C30D8D100985CE4 /* PetViewController.swift */,
+				CFE898521C29E5020030E68B /* Main.storyboard */,
+				CFE898551C29E5020030E68B /* Assets.xcassets */,
+				CFE898571C29E5020030E68B /* LaunchScreen.storyboard */,
+				CFE8985A1C29E5020030E68B /* Info.plist */,
+				CF6179341C3102B500985CE4 /* PeeTime.xcdatamodeld */,
+			);
+			path = PeeTime;
+			sourceTree = "<group>";
+		};
+		CFE898621C29E5030030E68B /* PeeTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFE898631C29E5030030E68B /* PeeTimeTests.swift */,
+				CFE898651C29E5030030E68B /* Info.plist */,
+			);
+			path = PeeTimeTests;
+			sourceTree = "<group>";
+		};
+		CFE8986D1C29E5030030E68B /* PeeTimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFE8986E1C29E5030030E68B /* PeeTimeUITests.swift */,
+				CFE898701C29E5030030E68B /* Info.plist */,
+			);
+			path = PeeTimeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFE898481C29E5020030E68B /* PeeTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE898731C29E5030030E68B /* Build configuration list for PBXNativeTarget "PeeTime" */;
+			buildPhases = (
+				CFE898451C29E5020030E68B /* Sources */,
+				CFE898461C29E5020030E68B /* Frameworks */,
+				CFE898471C29E5020030E68B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeeTime;
+			productName = PeeTime;
+			productReference = CFE898491C29E5020030E68B /* PeeTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFE8985E1C29E5020030E68B /* PeeTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE898761C29E5030030E68B /* Build configuration list for PBXNativeTarget "PeeTimeTests" */;
+			buildPhases = (
+				CFE8985B1C29E5020030E68B /* Sources */,
+				CFE8985C1C29E5020030E68B /* Frameworks */,
+				CFE8985D1C29E5020030E68B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFE898611C29E5030030E68B /* PBXTargetDependency */,
+			);
+			name = PeeTimeTests;
+			productName = PeeTimeTests;
+			productReference = CFE8985F1C29E5030030E68B /* PeeTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFE898691C29E5030030E68B /* PeeTimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE898791C29E5030030E68B /* Build configuration list for PBXNativeTarget "PeeTimeUITests" */;
+			buildPhases = (
+				CFE898661C29E5030030E68B /* Sources */,
+				CFE898671C29E5030030E68B /* Frameworks */,
+				CFE898681C29E5030030E68B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFE8986C1C29E5030030E68B /* PBXTargetDependency */,
+			);
+			name = PeeTimeUITests;
+			productName = PeeTimeUITests;
+			productReference = CFE8986A1C29E5030030E68B /* PeeTimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFE898411C29E5020030E68B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = caw;
+				TargetAttributes = {
+					CFE898481C29E5020030E68B = {
+						CreatedOnToolsVersion = 7.2;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					CFE8985E1C29E5020030E68B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CFE898481C29E5020030E68B;
+					};
+					CFE898691C29E5030030E68B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CFE898481C29E5020030E68B;
+					};
+				};
+			};
+			buildConfigurationList = CFE898441C29E5020030E68B /* Build configuration list for PBXProject "PeeTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFE898401C29E5020030E68B;
+			productRefGroup = CFE8984A1C29E5020030E68B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFE898481C29E5020030E68B /* PeeTime */,
+				CFE8985E1C29E5020030E68B /* PeeTimeTests */,
+				CFE898691C29E5030030E68B /* PeeTimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFE898471C29E5020030E68B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE898591C29E5020030E68B /* LaunchScreen.storyboard in Resources */,
+				CFE898561C29E5020030E68B /* Assets.xcassets in Resources */,
+				CFE898541C29E5020030E68B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE8985D1C29E5020030E68B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE898681C29E5030030E68B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFE898451C29E5020030E68B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6179361C3102B500985CE4 /* PeeTime.xcdatamodeld in Sources */,
+				CFE898511C29E5020030E68B /* StatusViewController.swift in Sources */,
+				CFE8984D1C29E5020030E68B /* AppDelegate.swift in Sources */,
+				CF6179311C30FA9900985CE4 /* Walk.swift in Sources */,
+				CF61792F1C30D8D100985CE4 /* PetViewController.swift in Sources */,
+				CFE8984F1C29E5020030E68B /* WalkViewController.swift in Sources */,
+				CF6179391C3108BA00985CE4 /* Location.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE8985B1C29E5020030E68B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE898641C29E5030030E68B /* PeeTimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE898661C29E5030030E68B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE8986F1C29E5030030E68B /* PeeTimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFE898611C29E5030030E68B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFE898481C29E5020030E68B /* PeeTime */;
+			targetProxy = CFE898601C29E5030030E68B /* PBXContainerItemProxy */;
+		};
+		CFE8986C1C29E5030030E68B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFE898481C29E5020030E68B /* PeeTime */;
+			targetProxy = CFE8986B1C29E5030030E68B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFE898521C29E5020030E68B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFE898531C29E5020030E68B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFE898571C29E5020030E68B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFE898581C29E5020030E68B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFE898711C29E5030030E68B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFE898721C29E5030030E68B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFE898741C29E5030030E68B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PeeTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caw.PeeTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFE898751C29E5030030E68B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PeeTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caw.PeeTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFE898771C29E5030030E68B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PeeTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caw.PeeTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeeTime.app/PeeTime";
+			};
+			name = Debug;
+		};
+		CFE898781C29E5030030E68B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PeeTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caw.PeeTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeeTime.app/PeeTime";
+			};
+			name = Release;
+		};
+		CFE8987A1C29E5030030E68B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PeeTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caw.PeeTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PeeTime;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CFE8987B1C29E5030030E68B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PeeTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caw.PeeTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PeeTime;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFE898441C29E5020030E68B /* Build configuration list for PBXProject "PeeTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE898711C29E5030030E68B /* Debug */,
+				CFE898721C29E5030030E68B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFE898731C29E5030030E68B /* Build configuration list for PBXNativeTarget "PeeTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE898741C29E5030030E68B /* Debug */,
+				CFE898751C29E5030030E68B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFE898761C29E5030030E68B /* Build configuration list for PBXNativeTarget "PeeTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE898771C29E5030030E68B /* Debug */,
+				CFE898781C29E5030030E68B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFE898791C29E5030030E68B /* Build configuration list for PBXNativeTarget "PeeTimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE8987A1C29E5030030E68B /* Debug */,
+				CFE8987B1C29E5030030E68B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF6179341C3102B500985CE4 /* PeeTime.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF6179351C3102B500985CE4 /* PeeTime.xcdatamodel */,
+			);
+			currentVersion = CF6179351C3102B500985CE4 /* PeeTime.xcdatamodel */;
+			path = PeeTime.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CFE898411C29E5020030E68B /* Project object */;
+}
